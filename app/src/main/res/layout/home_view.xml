@@ -4,10 +4,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+
     <ImageButton
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:src="@drawable/twdiandr2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/twdiandr3"
         android:scaleType="centerCrop"
         android:background="@android:color/transparent"
         android:layout_margin="8dp"
@@ -17,48 +27,49 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Tuleva"
-        android:textSize="30sp"
+        android:textSize="22sp"
         android:background="@android:color/transparent"
         android:fontFamily="casual"
         android:textAllCaps="false"
         android:layout_toRightOf="@id/logo_button"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="8dp"
         android:layout_marginRight="8dp"
-        android:layout_marginBottom="32dp"
+        android:layout_marginBottom="8dp"
         android:id="@+id/info_button"/>
 
     <ImageButton
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
         android:scaleType="centerCrop"
-        android:layout_alignParentRight="true"
-        android:layout_marginTop="2dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginLeft="2dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginBottom="9dp"
         android:id="@+id/settings"
         android:src="@drawable/baseline_more_vert_black_48dp"
         android:background="@android:color/transparent"
-        android:layout_below="@id/profile_button"/>
+        android:layout_alignParentRight="true"
+        android:tint="#34515e"/>
 
     <ImageButton
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
         android:scaleType="centerCrop"
-        android:layout_alignParentRight="true"
-        android:layout_marginTop="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginLeft="2dp"
-        android:layout_marginBottom="2dp"
+        android:layout_toLeftOf="@id/settings"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginBottom="9dp"
         android:id="@+id/profile_button"
         android:src="@drawable/twotone_account_circle_black_48dp"
-        android:background="@android:color/transparent" />
+        android:background="@android:color/transparent"
+        android:tint="#34515e"/>
 
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="5dp"
-        android:layout_below="@id/settings"
+        android:layout_below="@id/info_button"
         android:background="#607d8b"
         android:id="@+id/divider_title"/>
     <TextView
