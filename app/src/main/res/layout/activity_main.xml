@@ -1,238 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Head banner"
-        android:textSize="48sp"
-        android:background="@android:color/holo_green_dark"
-        android:textColor="@android:color/transparent"
-        android:id="@+id/head_banner"/>
+<ImageView
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:src="@drawable/twdiandr3"
+    android:scaleType="centerCrop"
+    android:layout_centerInParent="true"
+    android:id="@+id/logo"
+    android:background="@android:color/transparent"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/logo"
+    android:layout_centerHorizontal="true"
+    android:text="Tuleva"
+    android:fontFamily="casual"
+    android:textSize="22sp"
+    android:id="@+id/name"/>
 
-    <ImageButton
-        android:layout_width="32dp"
-        android:layout_height="32dp"
-        android:scaleType="centerCrop"
-        android:id="@+id/additional_menu_button"
-        android:src="@drawable/additionalmenu"
-        android:background="@android:color/transparent"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="16dp"/>
-
-    <ImageButton
-        android:layout_width="150dp"
-        android:layout_height="72dp"
-        android:scaleType="centerCrop"
-        android:id="@+id/logo_button"
-        android:src="@drawable/logo_tuleva"
-        android:layout_centerHorizontal="true"
-        android:background="@android:color/transparent"
-        android:layout_marginTop="4dp"
-        android:layout_marginBottom="4dp"/>
-
-    <ImageButton
-        android:layout_width="36dp"
-        android:layout_height="36dp"
-        android:scaleType="centerCrop"
-        android:id="@+id/profile_button"
-        android:src="@drawable/profilebuttonnew1"
-        android:background="@android:color/transparent"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_alignParentRight="true"
-        android:layout_marginRight="16dp"/>
-
-    <SearchView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/head_banner"
-        android:id="@+id/search_maps">
-
-    </SearchView>
-
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:scaleType="centerCrop"
-        android:id="@+id/maps"
-        android:layout_below="@id/search_maps"
-        android:src="@drawable/maps_pic" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Banner seasonal food"
-        android:layout_below="@id/maps"
-        android:textSize="32sp"
-        android:textColor="@android:color/transparent"
-        android:background="@android:color/holo_green_dark" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="32dp"
-        android:text="Seasonal food"
-        android:layout_below="@id/maps"
-        android:fontFamily="serif"
-        android:textAllCaps="false"
-        android:textSize="14sp"
-        android:background="@android:color/transparent"
-        android:layout_marginLeft="16dp"
-        android:id="@+id/seasonal_food"
-        android:textColor="@android:color/black"/>
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="24dp"
-        android:layout_alignParentRight="true"
-        android:layout_below="@id/maps"
-        android:text="Recipes"
-        android:textSize="12sp"
-        android:textAllCaps="false"
-        android:background="@android:color/transparent"
-        android:fontFamily="serif"
-        android:layout_marginTop="4dp"
-        android:layout_marginRight="8dp"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:background="@android:color/holo_green_light"
-        android:layout_below="@id/seasonal_food"/>
-
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:layout_below="@id/seasonal_food">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:layout_marginBottom="16dp"
-                android:orientation="horizontal"
-                android:id="@+id/seasonal_food_firstline">
-
-                <ImageView
-                    android:layout_width="0dp"
-                    android:layout_height="50dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/apple"/>
-
-                <ImageView
-                    android:layout_width="0dp"
-                    android:layout_height="50dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/pear"/>
-
-                <ImageView
-                    android:layout_width="0dp"
-                    android:layout_height="50dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/carrot"/>
-
-                <ImageView
-                    android:layout_width="0dp"
-                    android:layout_height="50dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/watermelon"/>
-
-
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/seasonal_food_firstline"
-                android:layout_marginBottom="16dp"
-                android:orientation="horizontal"
-                android:id="@+id/seasonal_food_secondline">
-
-                <ImageView
-                    android:layout_width="0dp"
-                    android:layout_height="50dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/apple"/>
-
-                <ImageView
-                    android:layout_width="0dp"
-                    android:layout_height="50dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/pear"/>
-
-                <ImageView
-                    android:layout_width="0dp"
-                    android:layout_height="50dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/carrot"/>
-
-                <ImageView
-                    android:layout_width="0dp"
-                    android:layout_height="50dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/watermelon"/>
-
-
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/seasonal_food_firstline"
-                android:layout_marginBottom="16dp"
-                android:orientation="horizontal"
-                android:id="@+id/seasonal_food_thirdline">
-
-                <ImageView
-                    android:layout_width="0dp"
-                    android:layout_height="50dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/apple"/>
-
-                <ImageView
-                    android:layout_width="0dp"
-                    android:layout_height="50dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/pear"/>
-
-                <ImageView
-                    android:layout_width="0dp"
-                    android:layout_height="50dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/carrot"/>
-
-                <ImageView
-                    android:layout_width="0dp"
-                    android:layout_height="50dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/watermelon"/>
-
-
-            </LinearLayout>
-
-        </LinearLayout>
-
-    </ScrollView>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Bottom banner"
-        android:textSize="32sp"
-        android:background="@android:color/holo_green_dark"
-        android:textColor="@android:color/transparent"
-        android:layout_alignParentBottom="true"
-        android:id="@+id/bottom_banner"/>
-
-
+<Spinner
+    android:id="@+id/spinner"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:background="@android:drawable/btn_dropdown"
+    android:spinnerMode="dropdown"
+    android:layout_below="@id/name"
+    android:layout_centerHorizontal="true" />
 
 
 </RelativeLayout>

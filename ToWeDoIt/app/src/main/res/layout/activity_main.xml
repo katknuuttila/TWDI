@@ -20,6 +20,17 @@
         android:text="Tuleva"
         android:fontFamily="casual"
         android:textSize="22sp"
-        />
+        android:id="@+id/name"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"
+        android:layout_below="@id/name"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@android:color/secondary_text_dark" />
+
 
 </RelativeLayout>
