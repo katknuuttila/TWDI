@@ -30,7 +30,8 @@
         android:spinnerMode="dropdown"
         android:layout_below="@id/name"
         android:layout_centerHorizontal="true"
-        android:backgroundTint="@android:color/secondary_text_dark" />
+        android:backgroundTint="@android:color/secondary_text_dark"
+        android:fontFamily="@font/osc"/>
 
 
 </RelativeLayout>

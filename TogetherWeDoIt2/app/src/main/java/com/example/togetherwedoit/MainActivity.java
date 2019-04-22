@@ -46,7 +46,7 @@ public class MainActivity extends Activity implements AdapterView.OnItemSelected
                 // Whatever you want to happen when the first item gets selected
                 break;
             case 1:
-                Intent intent = new Intent(MainActivity.this,HomeScreen.class);
+                Intent intent = new Intent(MainActivity.this,HomeMenu.class);
                 startActivity(intent);
                 // Whatever you want to happen when the second item gets selected
                 break;
