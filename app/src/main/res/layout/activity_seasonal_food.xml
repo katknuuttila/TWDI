@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SeasonalFood">
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/twotone_account_circle_black_48dp"
+        android:tint="#607d8b"
+        android:background="@android:color/transparent"
+        android:id="@+id/profile_imagebutton"
+        android:layout_toLeftOf="@id/settings_button"
+        android:layout_margin="8dp"
+        android:layout_below="@id/top_divider"/>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/baseline_more_vert_black_48dp"
+        android:tint="#607d8b"
+        android:background="@android:color/transparent"
+        android:id="@+id/settings_button"
+        android:layout_alignParentRight="true"
+        android:layout_margin="8dp"
+        android:layout_below="@id/top_divider"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#8eacbb"
+        android:id="@+id/top_divider"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#8eacbb"
+        android:layout_below="@id/settings_button"
+        android:id="@+id/title_divider"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title_divider">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#8eacbb" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/carrotandroi"
+                    android:scaleType="centerCrop"
+                    android:background="@android:color/transparent"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Carrot"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:textSize="18sp"
+                    android:background="@android:color/transparent"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Recipes"
+                    android:textSize="18sp"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="120dp"
+                    android:background="@android:color/transparent"
+                    android:layout_marginBottom="8dp"/>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#8eacbb" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/carrotandroi"
+                    android:scaleType="centerCrop"
+                    android:background="@android:color/transparent"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Carrot"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:textSize="18sp"
+                    android:background="@android:color/transparent"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Recipes"
+                    android:textSize="18sp"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="120dp"
+                    android:background="@android:color/transparent"
+                    android:layout_marginBottom="8dp"/>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#8eacbb" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/carrotandroi"
+                    android:scaleType="centerCrop"
+                    android:background="@android:color/transparent"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Carrot"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:textSize="18sp"
+                    android:background="@android:color/transparent"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Recipes"
+                    android:textSize="18sp"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="120dp"
+                    android:background="@android:color/transparent"
+                    android:layout_marginBottom="8dp"/>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#8eacbb" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/carrotandroi"
+                    android:scaleType="centerCrop"
+                    android:background="@android:color/transparent"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Carrot"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:textSize="18sp"
+                    android:background="@android:color/transparent"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Recipes"
+                    android:textSize="18sp"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="120dp"
+                    android:background="@android:color/transparent"
+                    android:layout_marginBottom="8dp"/>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#8eacbb" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/carrotandroi"
+                    android:scaleType="centerCrop"
+                    android:background="@android:color/transparent"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Carrot"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:textSize="18sp"
+                    android:background="@android:color/transparent"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Recipes"
+                    android:textSize="18sp"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="120dp"
+                    android:background="@android:color/transparent"
+                    android:layout_marginBottom="8dp"/>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#8eacbb" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/carrotandroi"
+                    android:scaleType="centerCrop"
+                    android:background="@android:color/transparent"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Carrot"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:textSize="18sp"
+                    android:background="@android:color/transparent"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Recipes"
+                    android:textSize="18sp"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="120dp"
+                    android:background="@android:color/transparent"
+                    android:layout_marginBottom="8dp"/>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#8eacbb" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/carrotandroi"
+                    android:scaleType="centerCrop"
+                    android:background="@android:color/transparent"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Carrot"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:textSize="18sp"
+                    android:background="@android:color/transparent"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Recipes"
+                    android:textSize="18sp"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="120dp"
+                    android:background="@android:color/transparent"
+                    android:layout_marginBottom="8dp"/>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#8eacbb" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/carrotandroi"
+                    android:scaleType="centerCrop"
+                    android:background="@android:color/transparent"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Carrot"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:textSize="18sp"
+                    android:background="@android:color/transparent"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Recipes"
+                    android:textSize="18sp"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="120dp"
+                    android:background="@android:color/transparent"
+                    android:layout_marginBottom="8dp"/>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#8eacbb" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/carrotandroi"
+                    android:scaleType="centerCrop"
+                    android:background="@android:color/transparent"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Carrot"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:textSize="18sp"
+                    android:background="@android:color/transparent"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Recipes"
+                    android:textSize="18sp"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="120dp"
+                    android:background="@android:color/transparent"
+                    android:layout_marginBottom="8dp"/>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#8eacbb" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/carrotandroi"
+                    android:scaleType="centerCrop"
+                    android:background="@android:color/transparent"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Carrot"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:textSize="18sp"
+                    android:background="@android:color/transparent"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Recipes"
+                    android:textSize="18sp"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="120dp"
+                    android:background="@android:color/transparent"
+                    android:layout_marginBottom="8dp"/>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#8eacbb" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/carrotandroi"
+                    android:scaleType="centerCrop"
+                    android:background="@android:color/transparent"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Carrot"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:textSize="18sp"
+                    android:background="@android:color/transparent"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Recipes"
+                    android:textSize="18sp"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="120dp"
+                    android:background="@android:color/transparent"
+                    android:layout_marginBottom="8dp"/>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#8eacbb" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/carrotandroi"
+                    android:scaleType="centerCrop"
+                    android:background="@android:color/transparent"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Carrot"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:textSize="18sp"
+                    android:background="@android:color/transparent"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Recipes"
+                    android:textSize="18sp"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="120dp"
+                    android:background="@android:color/transparent"
+                    android:layout_marginBottom="8dp"/>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#8eacbb" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/carrotandroi"
+                    android:scaleType="centerCrop"
+                    android:background="@android:color/transparent"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Carrot"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:textSize="18sp"
+                    android:background="@android:color/transparent"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Recipes"
+                    android:textSize="18sp"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="120dp"
+                    android:background="@android:color/transparent"
+                    android:layout_marginBottom="8dp"/>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#8eacbb" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/carrotandroi"
+                    android:scaleType="centerCrop"
+                    android:background="@android:color/transparent"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Carrot"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:textSize="18sp"
+                    android:background="@android:color/transparent"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Recipes"
+                    android:textSize="18sp"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="120dp"
+                    android:background="@android:color/transparent"
+                    android:layout_marginBottom="8dp"/>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#8eacbb" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/carrotandroi"
+                    android:scaleType="centerCrop"
+                    android:background="@android:color/transparent"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Carrot"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:textSize="18sp"
+                    android:background="@android:color/transparent"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Recipes"
+                    android:textSize="18sp"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="120dp"
+                    android:background="@android:color/transparent"
+                    android:layout_marginBottom="8dp"/>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#8eacbb" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/carrotandroi"
+                    android:scaleType="centerCrop"
+                    android:background="@android:color/transparent"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Carrot"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:textSize="18sp"
+                    android:background="@android:color/transparent"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Recipes"
+                    android:textSize="18sp"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="120dp"
+                    android:background="@android:color/transparent"
+                    android:layout_marginBottom="8dp"/>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#8eacbb" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/carrotandroi"
+                    android:scaleType="centerCrop"
+                    android:background="@android:color/transparent"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Carrot"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:textSize="18sp"
+                    android:background="@android:color/transparent"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Recipes"
+                    android:textSize="18sp"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="120dp"
+                    android:background="@android:color/transparent"
+                    android:layout_marginBottom="8dp"/>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#8eacbb" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/carrotandroi"
+                    android:scaleType="centerCrop"
+                    android:background="@android:color/transparent"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Carrot"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:textSize="18sp"
+                    android:background="@android:color/transparent"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Recipes"
+                    android:textSize="18sp"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="120dp"
+                    android:background="@android:color/transparent"
+                    android:layout_marginBottom="8dp"/>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+</RelativeLayout>

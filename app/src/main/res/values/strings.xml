@@ -1,12 +1,4 @@
 <resources>
-    <string name="app_name">Tuleva</string>
+    <string name="app_name">TogetherWeDoIt</string>
+    <string name="title_activity_maps">Map</string>
 </resources>
-    <?xml version="1.0" encoding="utf-8"?>
-<resources>
-<string name="app_name">IntroScreen</string>
-<string-array name="brew_array">
-    <item>Odense</item>
-    <item>Helsinki -to be added</item>
-    <item>Copenhagen -to be added</item>
-    <item>Stockholm to be added</item>
-</string-array>

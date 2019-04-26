@@ -1,0 +1,1238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Events">
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/twotone_account_circle_black_48dp"
+        android:tint="#607d8b"
+        android:background="@android:color/transparent"
+        android:id="@+id/profile_button"
+        android:layout_toLeftOf="@id/settings_button"
+        android:layout_margin="8dp"
+        android:layout_below="@id/top_divider"/>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/baseline_more_vert_black_48dp"
+        android:tint="#607d8b"
+        android:background="@android:color/transparent"
+        android:id="@+id/settings_button"
+        android:layout_alignParentRight="true"
+        android:layout_margin="8dp"
+        android:layout_below="@id/top_divider"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#8eacbb"
+        android:id="@+id/top_divider"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#8eacbb"
+        android:layout_below="@id/settings_button"
+        android:id="@+id/title_divider"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title_divider">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#8eacbb"
+                android:id="@+id/divider1"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageButton
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/twotone_whatshot_black_48dp"
+                    android:scaleType="centerCrop"
+                    android:background="@android:color/transparent"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="5dp"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="2"
+                    android:text="Event name"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:textSize="18sp"
+                    android:background="@android:color/transparent"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="2"
+                    android:layout_marginLeft="2dp"
+                    android:fontFamily="@font/osc"
+                    android:text="Description"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:text="Date"
+                    android:fontFamily="@font/osc"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#8eacbb"
+                android:id="@+id/divider2"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageButton
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/twotone_whatshot_black_48dp"
+                    android:scaleType="centerCrop"
+                    android:background="@android:color/transparent"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="5dp"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="2"
+                    android:text="Event name"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:textSize="18sp"
+                    android:background="@android:color/transparent"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="2"
+                    android:layout_marginLeft="2dp"
+                    android:fontFamily="@font/osc"
+                    android:text="Description"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:text="Date"
+                    android:fontFamily="@font/osc"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#8eacbb"
+                android:id="@+id/divider3"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageButton
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/twotone_whatshot_black_48dp"
+                    android:scaleType="centerCrop"
+                    android:background="@android:color/transparent"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="5dp"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="2"
+                    android:text="Event name"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:textSize="18sp"
+                    android:background="@android:color/transparent"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="2"
+                    android:layout_marginLeft="2dp"
+                    android:fontFamily="@font/osc"
+                    android:text="Description"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:text="Date"
+                    android:fontFamily="@font/osc"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#8eacbb"
+                android:id="@+id/divider4"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageButton
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/twotone_whatshot_black_48dp"
+                    android:scaleType="centerCrop"
+                    android:background="@android:color/transparent"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="5dp"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="2"
+                    android:text="Event name"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:textSize="18sp"
+                    android:background="@android:color/transparent"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="2"
+                    android:layout_marginLeft="2dp"
+                    android:fontFamily="@font/osc"
+                    android:text="Description"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:text="Date"
+                    android:fontFamily="@font/osc"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#8eacbb"
+                android:id="@+id/divider5"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageButton
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/twotone_whatshot_black_48dp"
+                    android:scaleType="centerCrop"
+                    android:background="@android:color/transparent"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="5dp"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="2"
+                    android:text="Event name"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:textSize="18sp"
+                    android:background="@android:color/transparent"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="2"
+                    android:layout_marginLeft="2dp"
+                    android:fontFamily="@font/osc"
+                    android:text="Description"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:text="Date"
+                    android:fontFamily="@font/osc"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#8eacbb"
+                android:id="@+id/divider6"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageButton
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/twotone_whatshot_black_48dp"
+                    android:scaleType="centerCrop"
+                    android:background="@android:color/transparent"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="5dp"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="2"
+                    android:text="Event name"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:textSize="18sp"
+                    android:background="@android:color/transparent"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="2"
+                    android:layout_marginLeft="2dp"
+                    android:fontFamily="@font/osc"
+                    android:text="Description"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:text="Date"
+                    android:fontFamily="@font/osc"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#8eacbb"
+                android:id="@+id/divider7"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageButton
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/twotone_whatshot_black_48dp"
+                    android:scaleType="centerCrop"
+                    android:background="@android:color/transparent"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="5dp"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="2"
+                    android:text="Event name"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:textSize="18sp"
+                    android:background="@android:color/transparent"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="2"
+                    android:layout_marginLeft="2dp"
+                    android:fontFamily="@font/osc"
+                    android:text="Description"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:text="Date"
+                    android:fontFamily="@font/osc"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#8eacbb"
+                android:id="@+id/divider8"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageButton
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/twotone_whatshot_black_48dp"
+                    android:scaleType="centerCrop"
+                    android:background="@android:color/transparent"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="5dp"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="2"
+                    android:text="Event name"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:textSize="18sp"
+                    android:background="@android:color/transparent"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="2"
+                    android:layout_marginLeft="2dp"
+                    android:fontFamily="@font/osc"
+                    android:text="Description"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:text="Date"
+                    android:fontFamily="@font/osc"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#8eacbb"
+                android:id="@+id/divider9"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageButton
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/twotone_whatshot_black_48dp"
+                    android:scaleType="centerCrop"
+                    android:background="@android:color/transparent"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="5dp"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="2"
+                    android:text="Event name"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:textSize="18sp"
+                    android:background="@android:color/transparent"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="2"
+                    android:layout_marginLeft="2dp"
+                    android:fontFamily="@font/osc"
+                    android:text="Description"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:text="Date"
+                    android:fontFamily="@font/osc"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#8eacbb"
+                android:id="@+id/divider10"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageButton
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/twotone_whatshot_black_48dp"
+                    android:scaleType="centerCrop"
+                    android:background="@android:color/transparent"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="5dp"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="2"
+                    android:text="Event name"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:textSize="18sp"
+                    android:background="@android:color/transparent"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="2"
+                    android:layout_marginLeft="2dp"
+                    android:fontFamily="@font/osc"
+                    android:text="Description"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:text="Date"
+                    android:fontFamily="@font/osc"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#8eacbb"
+                android:id="@+id/divider11"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageButton
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/twotone_whatshot_black_48dp"
+                    android:scaleType="centerCrop"
+                    android:background="@android:color/transparent"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="5dp"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="2"
+                    android:text="Event name"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:textSize="18sp"
+                    android:background="@android:color/transparent"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="2"
+                    android:layout_marginLeft="2dp"
+                    android:fontFamily="@font/osc"
+                    android:text="Description"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:text="Date"
+                    android:fontFamily="@font/osc"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#8eacbb"
+                android:id="@+id/divider12"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageButton
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/twotone_whatshot_black_48dp"
+                    android:scaleType="centerCrop"
+                    android:background="@android:color/transparent"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="5dp"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="2"
+                    android:text="Event name"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:textSize="18sp"
+                    android:background="@android:color/transparent"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="2"
+                    android:layout_marginLeft="2dp"
+                    android:fontFamily="@font/osc"
+                    android:text="Description"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:text="Date"
+                    android:fontFamily="@font/osc"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#8eacbb"
+                android:id="@+id/divider13"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageButton
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/twotone_whatshot_black_48dp"
+                    android:scaleType="centerCrop"
+                    android:background="@android:color/transparent"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="5dp"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="2"
+                    android:text="Event name"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:textSize="18sp"
+                    android:background="@android:color/transparent"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="2"
+                    android:layout_marginLeft="2dp"
+                    android:fontFamily="@font/osc"
+                    android:text="Description"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:text="Date"
+                    android:fontFamily="@font/osc"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#8eacbb"
+                android:id="@+id/divider14"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageButton
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/twotone_whatshot_black_48dp"
+                    android:scaleType="centerCrop"
+                    android:background="@android:color/transparent"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="5dp"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="2"
+                    android:text="Event name"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:textSize="18sp"
+                    android:background="@android:color/transparent"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="2"
+                    android:layout_marginLeft="2dp"
+                    android:fontFamily="@font/osc"
+                    android:text="Description"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:text="Date"
+                    android:fontFamily="@font/osc"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#8eacbb"
+                android:id="@+id/divider15"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageButton
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/twotone_whatshot_black_48dp"
+                    android:scaleType="centerCrop"
+                    android:background="@android:color/transparent"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="5dp"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="2"
+                    android:text="Event name"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:textSize="18sp"
+                    android:background="@android:color/transparent"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="2"
+                    android:layout_marginLeft="2dp"
+                    android:fontFamily="@font/osc"
+                    android:text="Description"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:text="Date"
+                    android:fontFamily="@font/osc"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#8eacbb"
+                android:id="@+id/divider16"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageButton
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/twotone_whatshot_black_48dp"
+                    android:scaleType="centerCrop"
+                    android:background="@android:color/transparent"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="5dp"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="2"
+                    android:text="Event name"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:textSize="18sp"
+                    android:background="@android:color/transparent"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="2"
+                    android:layout_marginLeft="2dp"
+                    android:fontFamily="@font/osc"
+                    android:text="Description"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:text="Date"
+                    android:fontFamily="@font/osc"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#8eacbb"
+                android:id="@+id/divider17"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageButton
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/twotone_whatshot_black_48dp"
+                    android:scaleType="centerCrop"
+                    android:background="@android:color/transparent"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="5dp"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="2"
+                    android:text="Event name"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:textSize="18sp"
+                    android:background="@android:color/transparent"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="2"
+                    android:layout_marginLeft="2dp"
+                    android:fontFamily="@font/osc"
+                    android:text="Description"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:text="Date"
+                    android:fontFamily="@font/osc"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#8eacbb"
+                android:id="@+id/divider18"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageButton
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/twotone_whatshot_black_48dp"
+                    android:scaleType="centerCrop"
+                    android:background="@android:color/transparent"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="5dp"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="2"
+                    android:text="Event name"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:textSize="18sp"
+                    android:background="@android:color/transparent"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="2"
+                    android:layout_marginLeft="2dp"
+                    android:fontFamily="@font/osc"
+                    android:text="Description"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:text="Date"
+                    android:fontFamily="@font/osc"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#8eacbb"
+                android:id="@+id/divider19"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageButton
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/twotone_whatshot_black_48dp"
+                    android:scaleType="centerCrop"
+                    android:background="@android:color/transparent"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="5dp"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="2"
+                    android:text="Event name"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:textSize="18sp"
+                    android:background="@android:color/transparent"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="2"
+                    android:layout_marginLeft="2dp"
+                    android:fontFamily="@font/osc"
+                    android:text="Description"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:text="Date"
+                    android:fontFamily="@font/osc"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#8eacbb"
+                android:id="@+id/divider20"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageButton
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/twotone_whatshot_black_48dp"
+                    android:scaleType="centerCrop"
+                    android:background="@android:color/transparent"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="5dp"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="2"
+                    android:text="Event name"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:textSize="18sp"
+                    android:background="@android:color/transparent"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="2"
+                    android:layout_marginLeft="2dp"
+                    android:fontFamily="@font/osc"
+                    android:text="Description"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:text="Date"
+                    android:fontFamily="@font/osc"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#8eacbb"
+                android:id="@+id/divider21"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageButton
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/twotone_whatshot_black_48dp"
+                    android:scaleType="centerCrop"
+                    android:background="@android:color/transparent"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="5dp"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="2"
+                    android:text="Event name"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:textSize="18sp"
+                    android:background="@android:color/transparent"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="2"
+                    android:layout_marginLeft="2dp"
+                    android:fontFamily="@font/osc"
+                    android:text="Description"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:text="Date"
+                    android:fontFamily="@font/osc"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#8eacbb"
+                android:id="@+id/divider22"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageButton
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/twotone_whatshot_black_48dp"
+                    android:scaleType="centerCrop"
+                    android:background="@android:color/transparent"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="5dp"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="2"
+                    android:text="Event name"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:textSize="18sp"
+                    android:background="@android:color/transparent"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="2"
+                    android:layout_marginLeft="2dp"
+                    android:fontFamily="@font/osc"
+                    android:text="Description"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:text="Date"
+                    android:fontFamily="@font/osc"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#8eacbb"
+                android:id="@+id/divider23"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageButton
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/twotone_whatshot_black_48dp"
+                    android:scaleType="centerCrop"
+                    android:background="@android:color/transparent"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="5dp"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="2"
+                    android:text="Event name"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:textSize="18sp"
+                    android:background="@android:color/transparent"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="2"
+                    android:layout_marginLeft="2dp"
+                    android:fontFamily="@font/osc"
+                    android:text="Description"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:text="Date"
+                    android:fontFamily="@font/osc"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#8eacbb"
+                android:id="@+id/divider24"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageButton
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/twotone_whatshot_black_48dp"
+                    android:scaleType="centerCrop"
+                    android:background="@android:color/transparent"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="5dp"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="2"
+                    android:text="Event name"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/osc"
+                    android:textSize="18sp"
+                    android:background="@android:color/transparent"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="2"
+                    android:layout_marginLeft="2dp"
+                    android:fontFamily="@font/osc"
+                    android:text="Description"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:text="Date"
+                    android:fontFamily="@font/osc"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
